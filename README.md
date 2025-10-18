@@ -45,7 +45,8 @@ The goal was to validate that retrieval (embeddings + Chroma) returns correct co
 
 2. Pull and run the LLM model inside Ollama if needed:
 
-   docker exec -it ollama ollama pull llama3.2:1b |
+   docker exec -it ollama ollama pull llama3.2:1b
+   
    docker exec -it ollama ollama run llama3.2:1b
    
 4. Pull the embedding model used for creating embeddings inside Ollama if needed:
