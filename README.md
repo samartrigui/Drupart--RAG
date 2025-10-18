@@ -43,16 +43,19 @@ The goal was to validate that retrieval (embeddings + Chroma) returns correct co
 
    docker run -d -p 11434:11434 --name ollama ollama/ollama
 
-2. Pull and run the model inside Ollama if needed:
+2. Pull and run the LLM model inside Ollama if needed:
 
    docker exec -it ollama ollama pull llama3.2:1b
    docker exec -it ollama ollama run llama3.2:1b
+   
+4. Pull the embedding model used for creating embeddings inside Ollama if needed:
+   docker exec -it ollama ollama pull nomic-embed-text:latest
 
-3. Start Langflow (optional Docker):
+5. Start Langflow (optional Docker):
 
    docker run -d -p 7860:7860 langflowai/langflow:latest
 
-4. Build embeddings and ingest into Chroma using the Langflow pipeline (see flow in the repo).
+6. Build embeddings and ingest into Chroma using the Langflow pipeline (see flow in the repo).
 
 
 ---
