@@ -153,6 +153,18 @@ Below are the screenshots captured during testing. (Pipeline visual is placed ea
 
 - As a fallback, I tested the same RAG flow with Gemini 2.5 Pro (API). It produced precise and logically consistent answers, confirming the pipeline and embeddings were correct and that the issue stems from model reasoning capacity.
 
+### Gemini (fallback) — visual verification
+
+The Gemini runs were used to validate that the pipeline and prompts can produce correct answers when paired with a higher-capacity model. Screenshots from the Gemini tests:
+
+- Pipeline overview with Gemini:
+  - ![Gemini Pipeline](images/rag%20pipeline-Gemini%20.png)
+
+- Example Gemini responses (showing accurate numeric filtering and extraction):
+  - ![Gemini Response 1](images/gemini%20response%201.png)
+  - ![Gemini Response 2](images/gemini%20response.png)
+
+
 ---
 
 ## Conclusion
