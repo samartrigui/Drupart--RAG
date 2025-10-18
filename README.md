@@ -29,7 +29,7 @@ The goal was to validate that retrieval (embeddings + Chroma) returns correct co
 
 ---
 
-## Tech Stack
+## Technical Stack
 - Langflow — visual flow builder for connecting components
 - Ollama — run local LLMs (llama3.2:1b)
 - Chroma DB — local vector database for embeddings
