@@ -1,8 +1,6 @@
 # Task Submission Local RAG Pipeline (Langflow + Ollama + Chroma)
 
-A compact, reproducible local Retrieval-Augmented Generation (RAG) setup using Langflow for orchestration, Ollama for local LLM inference, and Chroma DB as the vector store. This README is styled and organized to match the look-and-feel of canonical RAG pipeline READMEs.
-
----
+This README documents the work completed, provides reproduction steps, and summarizes results, prompt iterations, and technical findings. 
 
 ## Table of Contents
 - [Overview](#overview)
