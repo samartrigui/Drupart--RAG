@@ -163,8 +163,7 @@ The Gemini runs were used to validate that the pipeline and prompts can produce 
   - ![Gemini Pipeline](images/rag%20pipeline-Gemini%20.png)
 
 - Example Gemini responses (showing accurate numeric filtering and extraction):
-  - ![Gemini Response 1](images/gemini%20response%201.png)
-  - ![Gemini Response 2](images/gemini%20response.png)
+  - ![Gemini Response 2](images/gemini%20responses.png)
 
 
 ---
